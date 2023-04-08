@@ -5,35 +5,38 @@
 /.pnp
 .pnp.js
 
+package/fe/node_modules
+package/fe/.pnp
+package/fe/.pnp.js
 # testing
 /coverage
-
+package/fe/coverage
 # next.js
-/.next/
-/out/
+package/fe/.next/
+package/fe/out/
 
 # production
-/build
+package/fe/build
 
 # misc
 .DS_Store
 *.pem
 
 # debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.pnpm-debug.log*
+package/fe/npm-debug.log*
+package/fe/yarn-debug.log*
+package/fe/yarn-error.log*
+package/fe/.pnpm-debug.log*
 
 # local env files
-.env*.local
+package/fe/.env*.local
 
 # vercel
-.vercel
+package/fe/.vercel
 
 # typescript
-*.tsbuildinfo
-next-env.d.ts
+package/fe/*.tsbuildinfo
+package/fe/next-env.d.ts
 
 build-push.bat
 

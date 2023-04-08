@@ -1,5 +1,7 @@
-node_modules
-npm-debug.log
+package/fe/node_modules
+package/fe/npm-debug.log
 .dockerignore
-Dockerfile
+package/fe/.dockerignore
+package/fe/Dockerfile
 build-push.bat
+.idea
