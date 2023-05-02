@@ -1,5 +1,5 @@
 # Use the official Node.js image as the base
-FROM docker.io/library/node:16.10-alpine
+FROM rhel8/nodejs-14-minimal
 
 
 # Set the working directory
