@@ -1,6 +1,5 @@
 # Use the official Node.js image as the base
-FROM rhel8/nodejs-14-minimal
-
+FROM docker.io/library/node:16.10-alpine
 
 # Set the working directory
 WORKDIR /app
